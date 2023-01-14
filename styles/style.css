@@ -1,3 +1,59 @@
 body{
-    background-color: #dbc1c1;
+    background-color: rgba(255, 144, 14, 0.1);
+   
+}
+*{
+   
+    margin: 0 auto;
+}
+
+/* nav part style  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.nav-logo h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.nav-items ul{
+    display: flex;
+    gap: 1em;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.nav-items ul li a{
+text-decoration: none;
+color: black;
+}
+
+
+
+
+
+/* Media Query Mobile  */
+
+@media screen and (max-width: 576px) {
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        /*  */
+        margin-top: 0;
+    }
+
+    .nav-items ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin-top: 1em;
+    }
+    
 }
