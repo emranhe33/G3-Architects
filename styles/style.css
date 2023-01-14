@@ -82,7 +82,48 @@ color: black;
 
 }
 
+/* Features-part style  */
 
+.Features-part{
+    display: flex;
+    
+    align-items: center;
+    margin: 3em 0;
+
+    
+}
+
+.Features-images{
+    border: 3px solid #110909;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    gap: 1em;
+
+    
+}
+.Features-img{
+    border: 3px solid #0a1a5e;
+    margin: 0;
+}
+
+.Features-details{
+    border: 3px solid indianred;
+}
+
+.Features-title{
+    font-weight: 500;
+font-size: 45px;
+}
+
+.title-color{}
+
+.Features-descriptino{
+    font-weight: 500;
+font-size: 20px;
+}
 
 
 
