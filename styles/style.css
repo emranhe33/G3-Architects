@@ -3,8 +3,28 @@ body{
    
 }
 *{
-   
+   max-width: 100%;
     margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn-primary{
+    padding: 1em;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 6px;
+}
+.btn-primary:hover{
+    background-color: #694419;
+}
+.btn-primary a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
 }
 
 /* nav part style  */
@@ -35,6 +55,35 @@ color: black;
 }
 
 
+/* banner part style */
+
+.banner{
+    margin-top: 3em;
+}
+
+.banner-title-text{
+    font-weight: 700;
+    font-size: 64px;
+}
+
+
+
+.banner-title{
+    text-align: center;
+}
+
+.banner-title p{
+    margin: 2em 0;
+}
+
+.image{
+    margin-top: 2em;
+    width: 950px;
+
+}
+
+
+
 
 
 
@@ -55,5 +104,12 @@ color: black;
         gap: 1em;
         margin-top: 1em;
     }
+
+    /* banner part style */
+    .banner-title .support .image{
+        width: 100%;
+    }
+
+    
     
 }
