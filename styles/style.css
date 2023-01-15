@@ -12,6 +12,14 @@ body {
     text-align: center;
 }
 
+.mt {
+    margin: 50px 0;
+}
+
+.mts{
+    margin: 10px 0;
+}
+
 .btn-primary {
     padding: 1em;
     background-color: #FF900E;
@@ -28,6 +36,19 @@ body {
     font-size: 18px;
     font-weight: bold;
     color: white;
+}
+
+.btn-white {
+    padding: 1em;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+
+}
+
+.btn-white a {
+   color:black;
+
 }
 
 /* nav part style  */
@@ -162,27 +183,109 @@ nav {
 
 .Features-enjoy-image {}
 
-.enjoy-item-part{
+.enjoy-item-part {
     margin-top: 1em;
 }
 
 
 .enjoy-item {
-   padding: 12px;
-   /* margin: 5px 0; */
+    padding: 12px;
+    /* margin: 5px 0; */
     width: 586px;
     height: 80px;
-    box-shadow: 2px 2px 2px 2px  gray;
+    box-shadow: 2px 2px 2px 2px gray;
 }
 
 .e-i-titl {
     margin-top: 2em;
 }
 
+/* Some Facts part style */
+
+.Categorys {
+
+    border: 1px solid #181716;
+    border-radius: 8px;
+
+    display: flex;
+    gap: 2em;
+}
+
+.Category {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 200px;
+
+    border: 1px solid #FF900E;
+    border-radius: 8px;
 
 
 
+    transition: transform 0.5s ease-in-out;
+}
 
+.Category>h3 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.Category:hover {
+    background-color: #FF900E;
+    transform: rotate(360deg);
+}
+
+
+/* Our Sponspors style  */
+
+.Sponspors-title {
+    text-align: center;
+}
+
+.Sponspors-title>h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+.sponsors-images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+/* Hire the best Architects style  */
+.bg-i-c {
+    display: flex;
+}
+
+.bg-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    background-image: url("../images/cover.png"),linear-gradient(#ff900e, #11238b);
+
+}
+.font-size{
+    font-size: 20px;
+}
+.font-size-b{
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(4, 3, 56);
+}
+
+.bg-color {
+    background-color: #FF900E;
+    padding: 2em;
+}
 
 
 
@@ -194,12 +297,12 @@ nav {
 
 /* Media Query Mobile  */
 
-@media screen and (max-width: 576px) {
+@media and screen and (max-width: 576px) {
 
     nav {
         display: flex;
         flex-direction: column;
-        /*  */
+
         margin-top: 0;
     }
 
@@ -214,7 +317,5 @@ nav {
     .banner-title .support .image {
         width: 100%;
     }
-
-
 
 }
